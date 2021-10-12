@@ -16,7 +16,6 @@ namespace ConsoleApp1
                 a = int.Parse(Console.ReadLine());
              }while (a>999 ^ a<100);
             }
-            else
             {
                 string b = a.ToString();
                 char[] bReverse = b.ToCharArray();

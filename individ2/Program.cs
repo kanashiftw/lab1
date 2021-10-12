@@ -6,6 +6,7 @@ namespace indiv2
     {
         static void Main(string[] args)
         {      
+            double e = 2.71828;
             Console.WriteLine("Введите a");
             double a = double.Parse(Console.ReadLine());
           Console.WriteLine($"Введите x (x > {-a})");
@@ -28,8 +29,6 @@ namespace indiv2
                     b = double.Parse(Console.ReadLine());
                 } while (b == 0);
             }
-            Console.WriteLine("Введите e");
-            double e = double.Parse(Console.ReadLine());
             Console.WriteLine("Введите c");
             double c = double.Parse(Console.ReadLine());
             double first = Math.Log(a+Math.Pow(x,2));

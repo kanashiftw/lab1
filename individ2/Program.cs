@@ -36,7 +36,7 @@ namespace indiv2
             Console.Clear();
             Console.WriteLine($"Ответ по первой формуле:{first + second}");
             //(x - Math.Sqrt(Math.Abs(x-b)))<>0
-            double ans = Math.Pow(e, -c*x)*(x+Math.Sqrt(x+a))/(x - Math.Sqrt(Math.Abs(x - b)));
+            double ans = Math.Pow(e, -c*x)*((x+Math.Sqrt(x+a))/(x - Math.Sqrt(Math.Abs(x - b))));
             Console.WriteLine($"Ответ по второй формуле:{ans}");
         }
     }

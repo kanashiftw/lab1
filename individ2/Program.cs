@@ -8,8 +8,16 @@ namespace indiv2
         {      
             Console.WriteLine("Введите a");
             double a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите x");
+          Console.WriteLine($"Введите x (x > {-a})");
             double x = double.Parse(Console.ReadLine());
+            if (x < -a)
+            {
+                do
+                {
+                    Console.WriteLine($"Введите число большее чем{-a}");
+                    x = double.Parse(Console.ReadLine());
+                } while (x < -a);
+            }
             Console.WriteLine("Введите b отличное от нуля");
             double b = double.Parse(Console.ReadLine());
             if (b == 0)

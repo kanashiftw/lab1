@@ -18,6 +18,7 @@ namespace Gradusi
             Console.WriteLine("Введите кол-во секунд:");
             s = int.Parse(Console.ReadLine());
             d = ((3600 * h) + (60 * m) + s) * 0.00833333333;
+            Console.Clear();
             Console.WriteLine($"Часовая стрелка отклонилась на {d} градусов");
         }
     }

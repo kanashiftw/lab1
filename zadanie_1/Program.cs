@@ -12,7 +12,7 @@ namespace Zadanie1
             int b = (int)a;
             float c = (a - b)*10;
             c = (int)c;
-            Console.WriteLine(c);
+            Console.WriteLine($"Первая цифра после запятой: {c}");
         }
     }
 }

@@ -10,8 +10,11 @@ namespace ConsoleApp1
                 Console.WriteLine("Введите трёхзначное число");
             a = int.Parse(Console.ReadLine());
             if (a>999 ^ a<100)
-            {
-                Console.WriteLine("Число не трёхзначное");
+            {do
+             {
+                Console.WriteLine("Число не трёхзначное, попробуйте еще раз");
+                a = int.Parse(Console.ReadLine());
+             }while (a>999 ^ a<100);
             }
             else
             {

@@ -83,7 +83,7 @@ namespace zadanie_9
             Console.WriteLine($"{a1}x+{b1}y+{c1}z={d1}");
             Console.WriteLine($"{a2}x+{b2}y+{c2}z={d2}");
             Console.WriteLine($"{a3}x+{b3}y+{c3}z={d3}");
-            //Воспользуемся методом Крамера
+
             ax = a1 * a2 / a1;
             ay = b1 * a2 / a1;
             az = c1 * a2 / a1;
